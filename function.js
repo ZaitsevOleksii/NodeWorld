@@ -37,3 +37,12 @@ function sum(){
   }
   return s;
 }
+
+function avg(){
+	var s=0, k=0;
+	for (var i = 0; i < arguments.length; i++) {
+		s=s+arguments[i] ;
+		k=k+1;
+  }
+  return s/k;
+}
