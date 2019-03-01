@@ -27,5 +27,13 @@ function greetAll(){
 	for (var i = 0; i < arguments.length; i++) {
 		s=s+arguments[i]+", " ;
   }
-  alert( "Ïðèâåò, " + s );
+  alert( "ÃÃ°Ã¨Ã¢Ã¥Ã², " + s );
+}
+
+function sum(){
+	var s=0;
+	for (var i = 0; i < arguments.length; i++) {
+		s=s+arguments[i] ;
+  }
+  return s;
 }
