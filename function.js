@@ -27,7 +27,7 @@ function greetAll(){
 	for (var i = 0; i < arguments.length; i++) {
 		s=s+arguments[i]+", " ;
   }
-  alert( "Ïðèâåò, " + s );
+  alert( "Hello, " + s );
 }
 
 function sum(){
