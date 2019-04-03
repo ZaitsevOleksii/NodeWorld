@@ -17,4 +17,7 @@ promise
 	.catch(function(err){
 		alert(err);
 	})
+	.finally(function(){
+		alert('Работает по-любому');
+	})
 	
